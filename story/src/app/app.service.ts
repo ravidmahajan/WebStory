@@ -15,12 +15,7 @@ export class AppService {
   }
 
   createNews(data: any): Observable<any> {
-    return this.http.post('https://localhost:3000/news', data, {
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      }
-    }
+    return this.http.post('http://localhost:3000/news', data
     );
   }
 }

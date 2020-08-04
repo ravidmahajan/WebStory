@@ -20,8 +20,10 @@
           <textarea class="form-control" type="textarea" id="description" placeholder="Enter description"
             name="description" required [(ngModel)]="description"></textarea>
         </div>
-        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Submit</button>
+        <div class="btn-group" role="group">
+        <button class="btn btn-primary align" type="submit" [disabled]="!form.valid">Submit</button>
         <button class="btn btn-secondary" type="button" (click)="viewStory()">Populate Data</button>
+      </div>
       </form>
     </div>
   </div>

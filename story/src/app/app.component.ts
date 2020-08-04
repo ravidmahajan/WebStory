@@ -5,7 +5,6 @@ import { HttpClient } from '@angular/common/http';
 import { v4 as uuidv4 } from 'uuid';
 
 import { AppService } from './app.service';
-import { identifierModuleUrl } from '@angular/compiler';
 
 
 @Component({
